@@ -1,0 +1,26 @@
+package Konversi_galon;
+
+import java.util.Scanner;
+
+
+public class Konversi_galonAir {
+  public static void main(String args[]){
+
+        int gallon = 0 ;
+        double liters;
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Inputkan Gallon yang ingin di convert : ");
+        gallon = scan.nextInt();
+
+        liters = gallon *3.785;
+
+
+
+        System.out.println(gallon + " gallons adalah " + liters + " liters.");
+
+
+
+    
+}
+    }
